@@ -5,7 +5,7 @@ $ curl -L https://storage.googleapis.com/download.tensorflow.org/models/inceptio
 $ unzip /tmp/inception5h.zip -d tensorflow/examples/android/assets/
 
 
-Add the files to asset folder before continuing because the model is trained on ndk and path has to be mentioned.
+Add the files to asset folder before continuing because the model is trained on ndk and asset file path is mentioned in TensorFlowImageListener.java class
 
 
 
